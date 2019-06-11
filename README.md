@@ -44,9 +44,9 @@ Results
 ---
 ### Implementation results by each model.
 
-![show result FCN](./result/show_result/show result FCN.png)
-![show result DeepLab](./result/show_result/show result DeepLab.png)
-![show result U-Net](./result/show_result/show result U-Net.png)
+![show_result_FCN](./result/show_result/show_result_FCN.png)
+![show_result_DeepLab](./result/show_result/show_result_DeepLab.png)
+![show_result_U-Net](./result/show_result/show_result_U-Net.png)
 
 ### Results by U-Net model.
 ![segmentation](./result/iamge_segmentation/segmentation.png)
