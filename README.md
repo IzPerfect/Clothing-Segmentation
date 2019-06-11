@@ -37,6 +37,7 @@ You can use Segmentation.py to get a segmented image.
 
 ### train and test
 `python run_main.py --model unet`
+
 `python segmentation.py --model_path ./save_model/UNet_model.h5 --image_path ./MyFile/example.png`
 
 
