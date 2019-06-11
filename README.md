@@ -10,12 +10,13 @@ Clothing Co-Parsing(CCP) dataset that i used can be found https://github.com/bea
 
 Pre-Processing
 ---
-After importing the image data from the alpha channel, convert unsigned int image to int and resize 64 x 64.
+After importing the image data , divide into four classes(Background, hair, skin, clothes) and resize 384 x 256.
 
 Models
 ---
-Models are found in model file. Model file includes FCN.py, DeepLabV2.py, UNet.py.
-U-Net has shown the best performance among the models in this project. 
+Models are found in model file. Model file includes FCN.py(Fully Covolutional Networks), DeepLabV2.py(DeepLab V2), UNet.py(U-Net).
+U-Net has shown the best performance among the models in this project.
+
 
 Requirement
 ---
